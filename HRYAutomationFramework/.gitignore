@@ -1,0 +1,15 @@
+# Maven build folder
+/target/
+
+# TestNG & Extent Reports
+/test-output/
+
+# Eclipse settings
+.settings/
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

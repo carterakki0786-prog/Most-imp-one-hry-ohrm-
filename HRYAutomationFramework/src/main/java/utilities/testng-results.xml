@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-30T18:12:51 IST" name="HRYAutomationFramework" finished-at="2026-07-30T18:13:32 IST" duration-ms="40839">
+    <groups>
+    </groups>
+    <test started-at="2026-07-30T18:12:51 IST" name="LoginTest" finished-at="2026-07-30T18:13:32 IST" duration-ms="40839">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@206a70ef]" started-at="2026-07-30T18:12:51 IST" name="setup" finished-at="2026-07-30T18:12:56 IST" duration-ms="4281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="launchApplication()[pri:0, instance:tests.LoginTest@206a70ef]" started-at="2026-07-30T18:12:56 IST" name="launchApplication" finished-at="2026-07-30T18:13:31 IST" duration-ms="35043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@206a70ef]" started-at="2026-07-30T18:13:32 IST" name="tearDown" finished-at="2026-07-30T18:13:32 IST" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- HRYAutomationFramework -->
+</testng-results>
