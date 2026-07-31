@@ -1,17 +1,7 @@
 steps:
-
-- script: |
-    echo "Current location:"
-    pwd
-    echo "Files:"
-    ls -la
-    echo "Finding pom:"
-    find . -name pom.xml
-  displayName: 'Check repository structure'
-
 - task: Maven@3
   inputs:
-    mavenPomFile: 'pom.xml'
+    mavenPomFile: 'HRYAutomation/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.17'
