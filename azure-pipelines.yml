@@ -1,7 +1,7 @@
 steps:
 - task: Maven@3
   inputs:
-    mavenPomFile: 'HRYAutomation/pom.xml'
+    mavenPomFile: 'HRYAutomationFramework/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.17'
